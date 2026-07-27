@@ -1,7 +1,18 @@
 aid: hadrius
 name: Hadrius
-description: 'Hadrius is a company surfaced as a portfolio company of crv and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Hadrius is an AI-native compliance platform for SEC- and FINRA-regulated
+  financial firms, including broker-dealers, registered investment advisors (RIAs),
+  private funds, and compliance consultants. The platform consolidates multiple compliance
+  functions into a single system of record with human governance: a testing program
+  that automates compliance testing and audit reporting, AI-powered marketing review
+  and content approval workflows, people oversight for personal trading, attestations
+  and certifications, communications archiving that supervises email, chat, and social
+  media with zero-retention AI, and account surveillance that monitors trades against
+  restricted lists and blackout windows. Hadrius serves 500+ institutions managing
+  over $5 trillion in AUM, raised a $22M Series A, and is backed by Y Combinator and
+  CRV. The company is SOC 2 Type II and ISO 27001 certified and GDPR compliant. This
+  profile currently documents no public developer API; it is maintained as a company
+  record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/hadrius/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +20,31 @@ x-backed-by:
 - crv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/68cc1547b84908e0d46952a8/6933593f975904a5c6208d0c_og-image.webp
 tags:
 - Company
 - Fintech
+- Compliance
+- RegTech
+- Financial Services
+- SEC
+- FINRA
+- Governance
+- Risk and Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +52,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hadrius-domain-security.yml
 - type: Website
   url: https://www.hadrius.com/
+- type: Login
+  url: https://app.hadrius.com/auth/sign-in
+- type: Blog
+  url: https://www.hadrius.com/insights
+- type: Support
+  url: mailto:hello@hadrius.com
+- type: TermsOfService
+  url: https://app.hadrius.com/docs/Hadrius%20Terms%20of%20Service.pdf
+- type: PrivacyPolicy
+  url: https://www.hadrius.com/privacy-policy
+- type: TrustCenter
+  url: https://trust.hadrius.com/
+- type: Compliance
+  url: https://www.hadrius.com/security
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
