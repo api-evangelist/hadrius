@@ -51,7 +51,7 @@ tags:
 - Fintech
 - Compliance
 - RegTech
-- Financial-Services
+- Financial Services
 - SEC
 - FINRA
 - Governance
@@ -66,6 +66,7 @@ tags_raw:
 - FINRA
 - Governance
 - Risk and Compliance
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
